@@ -10,7 +10,7 @@ Removes all friends and leaves every server.
 Fetches basic account information, such as username, user ID, email, phone number, and payment information if there is.  
 
 **Crash Client**  
-Essentially spam-switches themes and language to lag/crash any who is using that account's client.  
+Essentially spam-switches themes and language to lag/crash anyone who is using that account's client.  
   
   
 # 📝 Installation
