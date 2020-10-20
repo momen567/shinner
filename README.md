@@ -3,17 +3,18 @@
 
 # Features
 
-### Destroy Account  
+**Destroy Account**  
 Removes all friends and leaves every server.  
 
-### View account information  
-Fetches basic account information, email, phone number, and payment information if there is.  
+**View account information**  
+Fetches basic account information, such as username, user ID, email, phone number, and payment information if there is.  
 
 **Crash Client**  
 Essentially spam-switches themes and language to lag/crash any who is using that account's client.  
-
+  
+  
 # 📝 Installation
-Before using the tool, run `pip3 install -r requirements.txt` to install the required dependencies.
+Before using the tool, run `pip3 install -r requirements.txt` to install the required dependencies.  
 After that, simply run the tool using `python3 shinner.py`
 
 # 🖤 Support
