@@ -1,0 +1,5 @@
+requests
+discord
+pypresence
+colorama
+selenium
