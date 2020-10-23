@@ -14,6 +14,7 @@ Essentially spam-switches themes and language to lag/crash any who is using that
   
   
 # 📝 Installation
+First, you need to download chromedriver.exe and put it in the same folder as the tool. You can find it [here.](https://chromedriver.chromium.org/downloads)  
 Before using the tool, run `pip3 install -r requirements.txt` to install the required dependencies.  
 After that, simply run the tool using `python3 shinner.py`
 

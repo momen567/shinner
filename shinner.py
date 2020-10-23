@@ -15,6 +15,7 @@ from itertools import cycle
 client_id = '760339869980557322'
 RPC = Presence(client_id)
 RPC.connect()
+RPC.update(details="Playing with accounts.", state="madebyzuoa.github.io", large_image="trans", start=int(round(time.time() * 1000)),)
 
 init(convert=True)
 guildsIds = []
@@ -36,14 +37,13 @@ class Login(discord.Client):
     def run(self, token):
         try:
             super().run(token, bot=False)
-        except Exception as e:
+        except:
             print(f" Invalid token.")
             input(" Press enter to return.")
             clear()
             startMenu()
 
 def tokenInfo(token):
-    RPC.update(details="Viewing account information.", state="madebyzuoa.github.io", large_image="balls", start=int(round(time.time() * 1000)),)
     headers = {'Authorization': token, 'Content-Type': 'application/json'}  
     r = requests.get('https://discord.com/api/v6/users/@me', headers=headers)
     if r.status_code == 200:
@@ -151,7 +151,6 @@ def tokenInfo(token):
         startMenu()
             
 def tokenFuck(token):
-    RPC.update(details="Destroying account.", state="madebyzuoa.github.io", large_image="balls", start=int(round(time.time() * 1000)),)
     headers = {'Authorization': token}
     print(f" [{Fore.RED}NUKER{Fore.RESET}] Starting...")
 
@@ -173,7 +172,6 @@ def tokenFuck(token):
     startMenu()
 
 def seizure(token):
-    RPC.update(details="💥 Crashing Client.", state="madebyzuoa.github.io", large_image="balls", start=int(round(time.time() * 1000)),)
     headers = {'Authorization': token}
     print(f" [{Fore.YELLOW}CRASHER{Fore.RESET}] Crasher is now running. Restart the tool to stop it.")
     modes = cycle(["light", "dark"])
@@ -204,7 +202,6 @@ def getBanner():
     return banner
 
 def startMenu():
-    RPC.update(details="Main menu.", state="madebyzuoa.github.io", large_image="balls", start=int(round(time.time() * 1000)),)
     print(getBanner())
     print(f' > ', end=''); choice = str(input(''))
     
