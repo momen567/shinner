@@ -16,7 +16,9 @@ Essentially spam-switches themes and language to lag/crash anyone who is using t
 # 📝 Installation
 First, you need to download chromedriver.exe and put it in the same folder as the tool. You can find it [here.](https://chromedriver.chromium.org/downloads)  
 Before using the tool, run `pip3 install -r requirements.txt` to install the required dependencies.  
-After that, simply run the tool using `python3 shinner.py`
+After that, simply run the tool using `python3 shinner.py`  
+  
+If you're using the release version, just make sure chromedriver.exe is in the same folder as the tool.
 
 # 🖤 Support
 First, open an issue on the repo. If I don't get back to youi in 24 hours, then [join my Discord](https://madebyzuoa.github.io/discord) for support. You should only ask for help if you have an issue with the tool itself and not your PC. If you don't know how to use a command line and python, you shouldn't be using my tool.  
