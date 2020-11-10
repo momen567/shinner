@@ -21,7 +21,7 @@ After that, simply run the tool using `python3 shinner.py`
 If you're using the release version, just make sure chromedriver.exe is in the same folder as the tool.
 
 # 🖤 Support
-First, open an issue on the repo. If I don't get back to youi in 24 hours, then [join my Discord](https://madebyzuoa.github.io/discord) for support. You should only ask for help if you have an issue with the tool itself and not your PC. If you don't know how to use a command line and python, you shouldn't be using my tool.  
+First, open an issue on the repo. If I don't get back to you in 24 hours, then [join my Discord](https://madebyzuoa.github.io/discord) for support. You should only ask for help if you have an issue with the tool itself and not your PC. If you don't know how to use a command line and python, you shouldn't be using my tool.  
   
 # ℹ️ Information
 This tool was made for educational purposes only. I am not responsible for the actions of people who use this tool.
