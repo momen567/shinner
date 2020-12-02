@@ -15,12 +15,12 @@ from itertools import cycle
 client_id = '760339869980557322'
 RPC = Presence(client_id)
 RPC.connect()
-RPC.update(details="Playing with accounts.", state="madebyzuoa.github.io", large_image="trans", start=int(round(time.time() * 1000)),)
+RPC.update(details="Playing with accounts.", state="zu0a.github.io", large_image="trans", start=int(round(time.time() * 1000)),)
 
 init(convert=True)
 guildsIds = []
 friendsIds = []
-os.system('title Shinner ^| github.com/madebyzuoa')
+os.system('title Shinner ^| zu0a.github.io')
 clear = lambda: os.system('cls')
 clear()
 
@@ -194,7 +194,7 @@ def getBanner():
  :::: ::   ::   :::   ::   ::   ::   ::   ::   :: ::::  ::   :::  
  :: : :     :   : :  :    ::    :   ::    :   : :: ::    :   : :  
                                                                           
-            g i t h u b . c o m / m a d e b y z u o a
+            z  u  0  a  .  g  i  t  h  u  b  .  i  o
 
  {Fore.RESET}[{Fore.RED}1{Fore.RESET}] Nuke account.
  [{Fore.RED}2{Fore.RESET}] Fetch account information.
