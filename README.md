@@ -1,4 +1,4 @@
-# 👹 Shinner, The #1 Discord Token Tool
+# Shinner, The #1 Discord Token Tool
 ![](https://img.shields.io/github/stars/madebyzuoa/shinner?color=%23ff0000&style=for-the-badge) ![](https://img.shields.io/github/license/madebyzuoa/shinner?color=%23ff0000&style=for-the-badge) ![](https://img.shields.io/github/repo-size/madebyzuoa/shinner?color=%23ff0000&style=for-the-badge)
 
 # Features
@@ -22,3 +22,4 @@ If you're using the release version, just make sure chromedriver.exe is in the s
   
 # Information
 This tool was made for educational purposes only. I am not responsible for the actions of people who use this tool.
+Need help? Join [my discord!](https://cood1n.github.io/discord)
