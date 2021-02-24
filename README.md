@@ -22,4 +22,4 @@ If you're using the release version, just make sure chromedriver.exe is in the s
   
 # Information
 This tool was made for educational purposes only. I am not responsible for the actions of people who use this tool.  
-Need help? Join [my discord!](https://cood1n.github.io/discord)
+Need help? [Join my discord!](https://cood1n.github.io/discord)
