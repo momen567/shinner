@@ -21,5 +21,5 @@ After that, simply run the tool using `python3 shinner.py`
 If you're using the release version, just make sure chromedriver.exe is in the same folder as the tool.
   
 # Information
-This tool was made for educational purposes only. I am not responsible for the actions of people who use this tool.  
+This tool was made for proof of concept. I am not responsible for the actions of people who use this tool.  
 Need help? [Join my discord!](https://cood1n.github.io/discord)
